@@ -1,0 +1,32 @@
+#galleryControls {
+  position: absolute;
+  top: 0px;
+}
+#left {
+  width: 40px;
+  float: left;
+  margin-left: 6px;
+  visibility: hidden;
+  opacity: 0.5;
+}
+  #left:hover {
+    opacity: 1.0;
+    cursor: pointer;
+  }
+#right {
+  width: 40px;
+  float: right;
+  margin-right: 6px;
+  opacity: 0.5;
+}
+  #right:hover {
+    opacity: 1.0;
+    cursor: pointer;
+  }
+#autoScroller {
+width: 5000px;
+position: relative;
+}
+.autoItemWrapper {
+float: left;
+}
